@@ -1,0 +1,48 @@
+
+/* Container for the upvote lists */
+.upvote-list-container {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: flex;
+    gap: 20px; 
+    flex-direction: column; 
+  }
+  
+  /* Individual upvote lists */
+  .upvote-list {
+    border: 1px solid #ddd; 
+    padding: 10px;
+    border-radius: 8px; 
+  }
+  
+  /* Base styles for the upvote button */
+  .upvote {
+    background-color: #f4f6f8; /* Default background */
+    color: #343a40; /* Default arrow color */
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Selected state styles for the upvote button */
+  .upvote.selected {
+    background-color: #e5e8fd; /* Selected background */
+    color: #253cf2; /* Selected arrow color */
+  }
+  
+  /* Optional: Hover effect to give some interactivity */
+  .upvote:hover {
+    opacity: 0.8;
+  }
+  
+  .upvote.selected:hover {
+    opacity: 1;
+  }
+  
+
+
+  
