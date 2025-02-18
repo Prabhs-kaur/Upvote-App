@@ -29,3 +29,18 @@ How it Works:
 -The UpvoteContext is used to manage the state of the upvote buttons across lists.
 -The state is persisted in the browser's localStorage, allowing upvotes to be retained between page reloads.
 -The UpvoteProvider component provides the state and functions for toggling upvotes, adding new upvotes, 
+
+Testing
+-This project includes unit tests using **jest** and **React Testing Library**.
+
+>>>> Running Test
+
+To run the tests, use the following command:
+
+- npm test
+
+What This Test Does
+-It renders the Upvote component.
+-It simulates a click on the button.
+-It checks if the onClick function is called, ensuring that the selection toggles correctly.
+
