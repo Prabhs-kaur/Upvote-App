@@ -32,12 +32,9 @@ How it Works:
 
 Testing
 -This project includes unit tests using **jest** and **React Testing Library**.
-
->>>> Running Test
-
-To run the tests, use the following command:
-
-- npm test
+Running Test
+-To run the tests, use the following command:
+ npm test
 
 What This Test Does
 -It renders the Upvote component.
